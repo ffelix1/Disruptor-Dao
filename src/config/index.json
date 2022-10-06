@@ -1,0 +1,125 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.jpg"
+  },
+  "navigation": [
+    {
+      "name": "About",
+      "href": "product"
+    },
+    {
+      "name": "Pillars of Impact",
+      "href": "features"
+    },
+
+    {
+      "name": "Our Solution",
+      "href": "team"
+    },
+    {
+      "name": "Contact us",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Welcome to",
+    "subtitle": "DISRUPTOR DAO",
+    "description": "The Disruptor DAO is an inclusive community of Black & Latinx women, welcoming allies and partners committed to advancing wealth-building opportunities for Black and Latinx communities across the globe.",
+    "img": "/assets/images/bg-img.PNG",
+    "primaryAction": {
+      "text":"",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "",
+      "href": "#"
+    }
+  },
+  "product": {
+    "title": "About Us!",
+    "items": [
+      {
+        "title": "Who we are?",
+        "description": "Advancing opportunities for Black and Latinx women to build wealth through education and investment in disruptive technologies and web3.",
+        "img": "/assets/images/female2.jpeg"
+      },
+      {
+        "title": "What are we disrupting?",
+        "subtitle": "",
+        "description": "",
+        "img": "/assets/images/female1.jpeg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Disrupting DAO Solution",
+    "subtitle": "Pillars of Impact ",
+    "items": [
+      {
+        "name": "INSPIRE",
+        "description":"Education",
+        "icon": "/assets/images/inspire.svg"
+      },
+      {
+        "name": "GROW",
+        "description": "Project and business development",
+        "icon": "/assets/images/grow.png"
+      },
+      {
+        "name": "BUILD",
+        "description": "Real Estate",
+        "icon": "/assets/images/build.png"
+      },
+      {
+        "name": "GIVE",
+        "description": "Grants and Philanthropy",
+        "icon": "/assets/images/give.png"
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Solution Address ",
+    "items": [
+      {
+        "title": "A plug n play template",
+        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Make it your own!",
+        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Contact Us",
+        "href": "mailto:disruptordao@proton.me?subject=I would like to join!"
+      },
+      {
+        "name": "Terms",
+        "href": "#"
+      },
+      {
+        "name": "Policy",
+        "href": "#"
+      },
+      {
+        "name": "Cookie Setting",
+        "href": "#"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/disruptordao/",
+      "twitter": "https://twitter.com/DisruptorDAO_",
+      "linkedin": "https://www.linkedin.com/company/disruptordao/"
+    }
+  }
+}

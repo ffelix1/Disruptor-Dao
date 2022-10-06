@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #531d5d;
+  --color-secondary: #551465;
+  --color-tertiaty: #99a0a3;
+}
+
+a { 
+  @apply text-purple-700;
+}
+
+a:hover {
+  @apply border-b-2 border-purple-700;
+}
+
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+.column{
+  float: left;
+  width:25%;
+  padding: 10px;
+}
+
+.row::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+.font{
+  font-size: 20px;
+  color: rgba(126, 4, 126, 0.96);
+}
+.font-2{
+  font-size: 15px;
+  color: black;
+}
+.font-join{
+  font-size: 40px;
+}
+.sponsor-logo{
+
+}
